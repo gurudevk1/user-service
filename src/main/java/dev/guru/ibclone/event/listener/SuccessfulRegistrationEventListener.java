@@ -1,13 +1,13 @@
-package dev.guru.userservice.event.listener;
+package dev.guru.ibclone.event.listener;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 
-import dev.guru.userservice.event.SuccessfulRegistrationEvent;
-import dev.guru.userservice.model.User;
-import dev.guru.userservice.model.VerificationToken;
-import dev.guru.userservice.repository.VerificationTokenRepository;
+import dev.guru.ibclone.event.SuccessfulRegistrationEvent;
+import dev.guru.ibclone.model.User;
+import dev.guru.ibclone.model.VerificationToken;
+import dev.guru.ibclone.repository.VerificationTokenRepository;
 
 @Component
 public class SuccessfulRegistrationEventListener implements ApplicationListener<SuccessfulRegistrationEvent> {

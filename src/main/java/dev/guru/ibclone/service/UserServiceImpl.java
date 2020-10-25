@@ -1,4 +1,4 @@
-package dev.guru.userservice.service;
+package dev.guru.ibclone.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
@@ -7,12 +7,12 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import dev.guru.userservice.dto.UserDto;
-import dev.guru.userservice.event.SuccessfulRegistrationEvent;
-import dev.guru.userservice.model.User;
-import dev.guru.userservice.model.VerificationToken;
-import dev.guru.userservice.repository.UserRepository;
-import dev.guru.userservice.repository.VerificationTokenRepository;
+import dev.guru.ibclone.dto.UserDto;
+import dev.guru.ibclone.event.SuccessfulRegistrationEvent;
+import dev.guru.ibclone.model.User;
+import dev.guru.ibclone.model.VerificationToken;
+import dev.guru.ibclone.repository.UserRepository;
+import dev.guru.ibclone.repository.VerificationTokenRepository;
 
 import javax.swing.text.html.Option;
 import java.util.Date;

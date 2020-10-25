@@ -1,4 +1,4 @@
-package dev.guru.userservice.dto;
+package dev.guru.ibclone.dto;
 
 
 import lombok.Getter;

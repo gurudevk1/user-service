@@ -1,4 +1,4 @@
-package dev.guru.userservice;
+package dev.guru.ibclone;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

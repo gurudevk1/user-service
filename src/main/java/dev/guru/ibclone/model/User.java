@@ -1,4 +1,4 @@
-package dev.guru.userservice.model;
+package dev.guru.ibclone.model;
 
 import lombok.Getter;
 import lombok.Setter;

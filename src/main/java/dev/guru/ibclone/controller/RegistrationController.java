@@ -1,14 +1,14 @@
-package dev.guru.userservice.controller;
+package dev.guru.ibclone.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import dev.guru.userservice.dto.ResponseDto;
-import dev.guru.userservice.dto.UserDto;
-import dev.guru.userservice.dto.UserResponseDto;
-import dev.guru.userservice.model.User;
-import dev.guru.userservice.service.UserService;
+import dev.guru.ibclone.dto.ResponseDto;
+import dev.guru.ibclone.dto.UserDto;
+import dev.guru.ibclone.dto.UserResponseDto;
+import dev.guru.ibclone.model.User;
+import dev.guru.ibclone.service.UserService;
 
 @RestController
 public class RegistrationController {

@@ -1,4 +1,4 @@
-package dev.guru.userservice.config;
+package dev.guru.ibclone.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

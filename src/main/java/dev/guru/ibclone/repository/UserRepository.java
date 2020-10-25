@@ -1,9 +1,9 @@
-package dev.guru.userservice.repository;
+package dev.guru.ibclone.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import dev.guru.userservice.model.User;
+import dev.guru.ibclone.model.User;
 
 import java.util.List;
 
