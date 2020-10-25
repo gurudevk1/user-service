@@ -19,7 +19,6 @@ public class RegistrationController {
     @PostMapping("/user/register")
     public ResponseDto<UserResponseDto> registerUser(@RequestBody UserDto userDto) {
 
-    	
         User user = userService.registerUser(userDto);
         return new ResponseDto<>(
                 HttpStatus.OK,
