@@ -1,4 +1,4 @@
-package dev.naman.userservice.model;
+package dev.guru.userservice.model;
 
 import lombok.Getter;
 import lombok.Setter;

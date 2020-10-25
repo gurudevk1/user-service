@@ -1,13 +1,14 @@
-package dev.naman.userservice.controller;
+package dev.guru.userservice.controller;
 
-import dev.naman.userservice.dto.ResponseDto;
-import dev.naman.userservice.dto.UserDto;
-import dev.naman.userservice.dto.UserResponseDto;
-import dev.naman.userservice.model.User;
-import dev.naman.userservice.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+
+import dev.guru.userservice.dto.ResponseDto;
+import dev.guru.userservice.dto.UserDto;
+import dev.guru.userservice.dto.UserResponseDto;
+import dev.guru.userservice.model.User;
+import dev.guru.userservice.service.UserService;
 
 @RestController
 public class RegistrationController {

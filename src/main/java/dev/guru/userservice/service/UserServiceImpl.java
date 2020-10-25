@@ -1,17 +1,18 @@
-package dev.naman.userservice.service;
+package dev.guru.userservice.service;
 
-import dev.naman.userservice.dto.UserDto;
-import dev.naman.userservice.event.SuccessfulRegistrationEvent;
-import dev.naman.userservice.model.User;
-import dev.naman.userservice.model.VerificationToken;
-import dev.naman.userservice.repository.UserRepository;
-import dev.naman.userservice.repository.VerificationTokenRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import dev.guru.userservice.dto.UserDto;
+import dev.guru.userservice.event.SuccessfulRegistrationEvent;
+import dev.guru.userservice.model.User;
+import dev.guru.userservice.model.VerificationToken;
+import dev.guru.userservice.repository.UserRepository;
+import dev.guru.userservice.repository.VerificationTokenRepository;
 
 import javax.swing.text.html.Option;
 import java.util.Date;

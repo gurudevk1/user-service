@@ -1,9 +1,10 @@
-package dev.naman.userservice.event;
+package dev.guru.userservice.event;
 
-import dev.naman.userservice.model.User;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.context.ApplicationEvent;
+
+import dev.guru.userservice.model.User;
 
 @Getter
 @Setter

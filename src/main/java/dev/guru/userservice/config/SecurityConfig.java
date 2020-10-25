@@ -1,4 +1,4 @@
-package dev.naman.userservice.config;
+package dev.guru.userservice.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

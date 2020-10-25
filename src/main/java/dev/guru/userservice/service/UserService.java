@@ -1,8 +1,8 @@
-package dev.naman.userservice.service;
+package dev.guru.userservice.service;
 
-import dev.naman.userservice.dto.UserDto;
-import dev.naman.userservice.dto.UserResponseDto;
-import dev.naman.userservice.model.User;
+import dev.guru.userservice.dto.UserDto;
+import dev.guru.userservice.dto.UserResponseDto;
+import dev.guru.userservice.model.User;
 
 public interface UserService {
 

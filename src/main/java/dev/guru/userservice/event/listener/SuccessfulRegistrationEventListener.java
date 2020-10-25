@@ -1,12 +1,13 @@
-package dev.naman.userservice.event.listener;
+package dev.guru.userservice.event.listener;
 
-import dev.naman.userservice.event.SuccessfulRegistrationEvent;
-import dev.naman.userservice.model.User;
-import dev.naman.userservice.model.VerificationToken;
-import dev.naman.userservice.repository.VerificationTokenRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
+
+import dev.guru.userservice.event.SuccessfulRegistrationEvent;
+import dev.guru.userservice.model.User;
+import dev.guru.userservice.model.VerificationToken;
+import dev.guru.userservice.repository.VerificationTokenRepository;
 
 @Component
 public class SuccessfulRegistrationEventListener implements ApplicationListener<SuccessfulRegistrationEvent> {

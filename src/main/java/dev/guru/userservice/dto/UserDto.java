@@ -1,4 +1,4 @@
-package dev.naman.userservice.dto;
+package dev.guru.userservice.dto;
 
 import lombok.Getter;
 import lombok.Setter;
