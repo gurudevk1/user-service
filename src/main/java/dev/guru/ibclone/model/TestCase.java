@@ -10,7 +10,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Table(name= "problems")
+@Table(name= "testCases")
 @Getter
 @Setter
 public class TestCase{

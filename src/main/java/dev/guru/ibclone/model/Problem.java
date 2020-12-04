@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.*;
 import javax.persistence.Table;
 
 import lombok.Getter;
@@ -29,6 +30,8 @@ public class Problem {
     Integer score;
     Date createdDate;
     
-    List<Company> listOfCompany;
+    //List<Company> listOfCompany;
+    @OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinColumn(name = "test_id", referencedColumnName = "testId")
     TestCase testcase;
 }

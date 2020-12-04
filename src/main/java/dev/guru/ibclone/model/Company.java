@@ -16,5 +16,5 @@ public class Company {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	Long companyId;
-   
+    String companyName;
 }
